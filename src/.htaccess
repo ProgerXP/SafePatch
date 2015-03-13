@@ -1,0 +1,16 @@
+Options -Indexes
+
+Order Allow,Deny
+Deny from all
+
+# Uncomment these to protect your SafePatch installation and system:
+#AuthType Basic
+#AuthName "SafePatch authorization"
+#AuthUserFile /path/to/.htpasswd
+#Require valid-user
+#
+#<IfModule mod_rewrite.c>
+#  RewriteEngine On
+#  # pass auth data to PHP running in CGI or FastCGI mode.
+#  RewriteRule .? - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+#</IfModule>

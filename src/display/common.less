@@ -1,0 +1,51 @@
+  @Verdana: Verdana, Geneva, sans-serif;
+  @Arial: Arial, Helvetica, sans-serif;
+  @Georgia: Georgia, @Palatino;
+  @Palatino: "Palatino Linotype", "Book Antiqua3", Palatino, serif;
+  @Garamond: "Garamond Premr Pro", Garamond, Baskerville, "Palatino Linotype", "Book Antiqua3", Palatino, "Hoefler Text", "Times New Roman", serif;
+  @Courier: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", "Courier New",  monospace;
+  @Lucida: "Lucida Grande", sans-serif;
+  @Times: "Times New Roman", Times, serif;
+  @Tahoma: Tahoma, Geneva, @Arial;
+  @Trebuchet: "Trebuchet MS", sans-serif;
+
+  .roundCorners (@radius: 5px) {
+    border-radius: @radius;
+    -o-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+  }
+
+  .transparent { opacity: 0; filter: alpha(opacity=0); }
+  .opaque { opacity: 1.0; filter: alpha(opacity=100); }
+  .opacity-30 { opacity: 0.3; filter: alpha(opacity=30); }
+  .opacity-50 { opacity: 0.5; filter: alpha(opacity=50); }
+  .opacity-70 { opacity: 0.7; filter: alpha(opacity=70); }
+
+  .underl { text-decoration: underline; }
+
+body { margin: 0; padding: 0; background: white; font-size: 100%; color: black; }
+body .js-block { display: none; }
+body.js-enabled .js-block { display: block; }
+
+a { color: blue; text-decoration: none; }
+pre, code { overflow: auto; }
+pre { width: auto; }
+img { border: 0; }
+p { margin: 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; font-size: 100%; }
+b, i, u { font-weight: inherit; font-style: inherit; text-decoration: inherit; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  caption-side: top;
+  empty-cells: show;
+  table-layout: auto;
+  width: 100%;
+}
+th, td { padding: 0; vertical-align: top; }
+
+ul, ol { margin: 0; padding: 0; }
