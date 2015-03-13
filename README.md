@@ -40,7 +40,7 @@ If you're familiar with PHP and the application you're attaching _SafePatch_ to 
 Keep in mind that it's also possible to **create standalone patch builds** that work like mini-control panels and don't require the target server to have _SafePatch_ installed - just upload the single file and open it in a web browser.
 
 ## Control panel
-[https://raw.githubusercontent.com/ProgerXP/SafePatch/master/docs/screenshot.png]
+![SafePatch control panel screenshot](https://raw.githubusercontent.com/ProgerXP/SafePatch/master/docs/screenshot.png)
 
 ## Installing FluxBB mods video demonstration
 http://www.youtube.com/watch?v=uYbu_r75fy8
