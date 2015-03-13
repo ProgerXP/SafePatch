@@ -155,9 +155,9 @@ This operation (one or more) follows *find*/*or* and does the actual file editin
 * *before* - by default, *add* puts its _value_ after the located string; *before* puts it in front
 * *first* - if there are multiple patches on the same snippet they are put in order they're ran (i.e. undetermined) one after another; *first* makes *add* put its _value_ before others in the same place
  * the order is undetermined if there are two matches running *add first* on the same snippet
- * **currently unimplemented, see issue #2**
+ * **currently unimplemented, see issue #1**
 * *last* - the same as *first* but works when *before* is given - puts _value_ after all patches of the same location
- * **currently unimplemented, see issue #2**
+ * **currently unimplemented, see issue #1**
 * *regexp* - if preceding *find*/*or* used *regexp* *add*'s value can contain _match pockets_ (`\0` - full match, `\1` - first match, etc.); _double backslash_ (`\\`) represents itself
  * _Value-converting parameters_ (such as *escaped*) are applied before *regexp*
 * *utf8* - when *regexp* is used specifies that the operator's value is in UTF-8 encoding
